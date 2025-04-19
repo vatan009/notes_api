@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/all/<%=thisNote._id%>/editing?_method=PATCH" method="post">
+        <label for="heading">edit ur Heading</label>
+        <textarea name="heading" class="editH">
+           
+        </textarea>
+        <hr>
+        <label for="text">edit ur text</label>
+        <textarea name="text" id="editT">
+        </textarea>
+        <hr>
+        <button type="submit">edit</button>
+
+    </form>
+</body>
+</html>

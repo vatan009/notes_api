@@ -1,0 +1,100 @@
+.showH1{
+    /* background-color: aquamarine;
+     */
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-align: center;
+     /* border-bottom: 1px  solid black; */
+     padding: 10px;
+     background-color: burlywood;
+     padding-top: 0%;
+     margin-top: 0px;
+     padding: 10px;
+     border-radius: 20px;
+}
+
+body{
+    background-color: bisque;
+}
+
+.noteH4{
+    /* background-color: yellow; */
+    /* color: white; */
+    opacity: 0.8;
+    padding: 0px;
+}
+
+.noteDiv{
+    /* background-color: darkgoldenrod !important; */
+    color: black;
+    font-weight: bold;
+    padding: 0px;
+    margin-left: 10px;
+}
+
+.block{
+    /* height: 100px; */
+    background-color: rgb(76, 198, 214);
+    /* display: flex; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 250px;
+    height: auto;
+   padding: 20px;
+   border-radius: 20px;
+   margin: 10px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px
+}
+
+.btn-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 0px;
+    padding-top: 15px;
+}
+
+
+/* view */
+
+.viewText{
+    background-color: antiquewhite;
+}
+.viewHeading{
+    background-color: rgb(95, 251, 251);
+    color: black;
+}
+
+.add-btn{
+    /* font-size:200px; */
+    /* height: 100px; */
+    /* width: 100px; */
+    align-self: center;
+    text-align: center;
+    background-color: cadetblue;
+    color: aqua;
+    padding: 10px 20px;       /* More space inside the button */
+    font-size: 16px;          /* Bigger text */
+    border-radius: 5px;       /* Optional: rounded corners */
+    cursor: pointer; 
+}
+
+
+button {
+    background-color: #ffffff;
+    color: rgb(4, 2, 2);
+    border: none;
+    transition: 0.3s;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #edd7d7;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px) translateX(-2px); /* lifts the button up */
+}
